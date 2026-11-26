@@ -1,0 +1,72 @@
+@media only screen and (max-width:2250px){
+
+}
+@media only screen and (max-width:1599px){
+
+}
+@media only screen and (max-width:1366px){
+ .container-fluid {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+  .container-fluid {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .inner_header {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+@media only screen and (max-width:1199px){
+ 
+}
+@media only screen and (max-width:1023px) {
+    .second_slide {
+        background: #e7e9f6 !important;
+    }
+}
+@media only screen and (max-width:991px){
+
+}
+@media only screen and (max-width:767px){
+    .container-fluid {
+        width: 95%;
+        max-width: auto;
+    }
+    .container {
+        width: 95%;
+        max-width: auto;
+    }
+    .sectionpadding {
+        padding: 60px 0px 60px;
+    }
+    .sectiontoppadding {
+        padding-top: 60px;
+    }
+    .sectionbottompadding {
+        padding-bottom: 60px;
+    }
+}
+@media only screen and (max-width:639px){
+    .container-fluid {
+        width: 90%;
+    }
+    .container {
+        width: 90%;
+    }
+    .primary-btn,.secondary-btn,.secondary-blue-btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+    .banner .owl-dots {
+        bottom: 155px;
+    }
+}
+@media only screen and (max-width:480px){
+
+}
