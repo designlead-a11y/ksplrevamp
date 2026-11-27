@@ -11,6 +11,11 @@ if (header) {
 
 // Mobile Header Menu Toggle Logic
 document.addEventListener('DOMContentLoaded', function () {
+  const copyrightYearEl = document.getElementById('copyright-year');
+  if (copyrightYearEl) {
+    copyrightYearEl.textContent = String(new Date().getFullYear());
+  }
+
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   const mobileMenuIcon = document.getElementById('mobile-menu-icon');
